@@ -1,0 +1,4 @@
+cd ./shop-angular-cloudfront
+npm install
+npm run build --configuration
+
