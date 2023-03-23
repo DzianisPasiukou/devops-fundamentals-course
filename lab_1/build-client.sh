@@ -1,8 +1,5 @@
-PROJECT_DIR=./shop-angular-cloudfront
 CLIENT_BUILD_DIR=dist
 CLIENT_BUILD_FILE=dist/client-app.zip
-
-cd $PROJECT_DIR
 
 if [ -e $CLIENT_BUILD_FILE ]; then
 	rm "$CLIENT_BUILD_FILE"

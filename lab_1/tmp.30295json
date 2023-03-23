@@ -20,13 +20,13 @@
             },
             "runOrder": 1,
             "configuration": {
-              "Branch": "test1",
+              "Branch": "main",
               "OAuthToken": "****",
-              "Owner": "test1",
-              "PollForSourceChanges": "test1",
+              "Owner": "Dzianis",
+              "PollForSourceChanges": "test",
               "Repo": "shop-angular-cloudfront",
               "BranchName": "test",
-              "EnvironmentVariables": "test1"
+              "EnvironmentVariables": "prod"
             },
             "outputArtifacts": [
               {
@@ -52,7 +52,7 @@
             },
             "runOrder": 1,
             "configuration": {
-              "EnvironmentVariables": "test1",
+              "EnvironmentVariables": "prod",
               "ProjectName": "client-app-quality"
             },
             "outputArtifacts": [],
@@ -79,7 +79,7 @@
             "runOrder": 1,
             "configuration": {
               "CustomData": "Approve me",
-              "EnvironmentVariables": "test1"
+              "EnvironmentVariables": "prod"
             },
             "outputArtifacts": [],
             "inputArtifacts": [],
@@ -100,7 +100,7 @@
             },
             "runOrder": 1,
             "configuration": {
-              "EnvironmentVariables": "test1",
+              "EnvironmentVariables": "prod",
               "ProjectName": "client-app-build"
             },
             "outputArtifacts": [
@@ -119,6 +119,6 @@
         ]
       }
     ],
-    "version": 29
+    "version": 17
   }
 }
